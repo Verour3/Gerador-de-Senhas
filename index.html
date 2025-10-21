@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>GigaPass | Gerador de senhas fortes</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="img/icon.png" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="container__titulo">
+        <img class="img__pass" src="img/pass.png" />
+        <h1>Gerador de<br /><span>senhas fortes</span></h1>
+      </div>
+      <div class="display">
+        <input type="text" id="senha" placeholder="Senha" />
+        <img src="img/paste.png" onclick="copiarSenha()" />
+      </div>
+      <div class="range-container">
+        <label for="length"
+          >Tamanho da senha: <span id="length-value">13</span></label
+        >
+        <input type="range" id="length" min="6" max="20" value="13" />
+        <p id="senha-forca"></p>
+      </div>
+      <button onclick="gerarSenha()" class="button">Gerar senha</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
