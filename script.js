@@ -3,7 +3,7 @@ const senhaCaixa = document.getElementById("senha");
 const maiusculo = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 const minusculo = "abcdefghijklmnopqrstuvwxyz";
 const numeros = "0123456789";
-const simbolos = "!@#$%^&*()_+~`|}{[]:;?><,./-=";
+const simbolos = "!@#$%&*()_+~`|}{[]:;?><,./-=";
 
 const todosCaracteres = maiusculo + minusculo + numeros + simbolos;
 
